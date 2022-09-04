@@ -7,7 +7,7 @@
     min-height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7));
-    background: url(../images/fish.jpg) no-repeat;
+    background: url(../images/seafood-165220_1280.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     position: relative;
@@ -47,6 +47,15 @@ nav{
 }
 .nav-links ul li:hover::after{
     width: 100%;
+}
+.text-box{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
 }
 
 
