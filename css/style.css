@@ -10,10 +10,13 @@
     background: url(../images/seafood-165220_1280.jpg) no-repeat;
     background-position: center;
     background-size: cover;
+    
     position: relative;
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    /*font-size: 20px;*/
+    font-size: 25px;
+    font-weight: bold;
     
     
 }
@@ -22,6 +25,8 @@ nav{
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
+    background-color: rgba(228, 202, 168, 0.55);
+    /*background-color: rgba(125, 107, 238, 0.4)*/
     
 }
 .nav-links{
@@ -37,7 +42,9 @@ nav{
 .nav-links ul li a{
     color: white;
     text-decoration: none;
-    font-size: 13px;
+    /*font-size: 13px;*/
+    font-size: 18px;
+    font-weight: bold;
 }
 .nav-links ul li::after{
     content: "";
@@ -62,12 +69,17 @@ nav{
     /*background-color: rgba(125, 107, 238, 0.4);*/
 }
 .text-box h1{
-    font-size: 62px;
+    /*font-size: 62px;*/
+    font-size: 70px;
+    font-weight: bold;
+    
 }
 .text-box p{
     margin: 10px 0 40px;
     color: white;
-    font-size: 14px;
+    /*font-size: 14px;*/
+    font-size: 18px;
+    font-weight: 500;
 }
 .hero-btn{
     display: inline-block;
@@ -75,10 +87,12 @@ nav{
     color: white;
     border: 3px solid white;
     padding: 12px 34px;
-    font-size: 13px;
+    /*font-size: 13px;*/
+    font-size: 18px;
     background: transparent;
     position: relative;
     cursor: pointer;
+    background-color: rgba(228, 202, 168, 0.75);
 }
 .hero-btn:hover{
     border: 1px solid #f44336;
