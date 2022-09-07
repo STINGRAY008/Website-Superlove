@@ -208,6 +208,23 @@ p{
     object-fit: cover;
     border-radius: 10px;
 }
+.gallery3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    gap: 16px;
+}
+.gallery3 img{
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
 
 
 
