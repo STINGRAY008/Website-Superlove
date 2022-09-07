@@ -15,7 +15,7 @@
     color: white;
     text-decoration: none;
     /*font-size: 20px;*/
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
 }
 nav{
@@ -77,7 +77,7 @@ nav{
     color: white;
     /*font-size: 14px;*/
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 550;
 }
 .hero-btn{
     display: inline-block;
@@ -103,7 +103,7 @@ nav .fa{
 
 @media (max-width: 700px){
     .text-box h1{
-        font-size: 20px;
+        font-size: 30px;
     }
     .nav-links ul li{
         display: block;
@@ -145,7 +145,7 @@ h1{
 p{
     color: #777;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 350;
     line-height: 22px;
     padding: 10px;
 }
@@ -154,14 +154,23 @@ p{
     text-transform: uppercase;
     padding: 32px;
     background-color: rgb(228, 202, 168);
-    color: #000040;
+    /* color: #000040; */
     border-bottom: 4px solid;
+}
+.header1{
+    text-decoration: none;
+    /*font-size: 20px;*/
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    color: white;
+    
 }
 .product-fishport{
    margin-top: 5%;
    display: flex;
    justify-content: space-between;
-    background-color: #7FBCD2;
+    /* background-color: #7FBCD2; */
 }
 .gallery{
     display: flex;
