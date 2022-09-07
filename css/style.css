@@ -17,8 +17,6 @@
     /*font-size: 20px;*/
     font-size: 25px;
     font-weight: bold;
-    
-    
 }
 nav{
     display: flex;
@@ -131,10 +129,58 @@ nav .fa{
     .nav-links ul{
         padding: 30px;
     }
-   
+
 }
 
-
+.product{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color: #777;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 32px;
+    background-color: rgb(228, 202, 168);
+    color: #000040;
+    border-bottom: 4px solid;
+}
+.product-fishport{
+   margin-top: 5%;
+   display: flex;
+   justify-content: space-between;
+    background-color: #7FBCD2;
+}
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    max-width: 1400px;
+    margin: 0 auto;
+    gap: 16px;
+}
+.gallery img{
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
 
 
 
