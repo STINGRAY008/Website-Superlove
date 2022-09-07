@@ -149,7 +149,7 @@ p{
     line-height: 22px;
     padding: 10px;
 }
-.row{
+.row1{
     text-align: center;
     text-transform: uppercase;
     padding: 32px;
@@ -164,14 +164,14 @@ p{
     font-weight: bold;
     position: relative;
     color: white;
-    
 }
-.product-fishport{
+
+/* .product-fishport{
    margin-top: 5%;
    display: flex;
    justify-content: space-between;
     /* background-color: #7FBCD2; */
-}
+
 .gallery{
     display: flex;
     flex-direction: row;
@@ -184,6 +184,24 @@ p{
     gap: 16px;
 }
 .gallery img{
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.gallery2{
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    gap: 16px;
+}
+.gallery2 img{
     width: 100%;
     max-width: 350px;
     height: 300px;
