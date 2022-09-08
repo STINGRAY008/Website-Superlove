@@ -25,6 +25,7 @@ nav{
     align-items: center;
     background-color: rgba(228, 202, 168, 0.55);
     /*background-color: rgba(125, 107, 238, 0.4)*/
+  
     
 }
 .nav-links{
@@ -156,6 +157,7 @@ p{
     background-color: rgb(228, 202, 168);
     /* color: #000040; */
     border-bottom: 4px solid;
+    
 }
 .header1{
     text-decoration: none;
@@ -164,6 +166,25 @@ p{
     font-weight: bold;
     position: relative;
     color: white;
+    padding-bottom: 20px;
+}
+.row2{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 32px;
+    background-color: rgb(228, 202, 168);
+    /* color: #000040; */
+    border-bottom: 4px solid;
+    
+}
+.header2{
+    text-decoration: none;
+    /*font-size: 20px;*/
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    color: white;
+    padding-bottom: 20px;
 }
 
 /* .product-fishport{
@@ -178,10 +199,13 @@ p{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 20px 10px;
+    padding: 20px 20px;
     max-width: 1400px;
     margin: 0 auto;
-    gap: 16px;
+    gap: 30px;
+    border: 20px solid lightblue;
+    background-color: lightblue;
+    
 }
 .gallery img{
     width: 100%;
