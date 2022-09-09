@@ -130,7 +130,6 @@ nav .fa{
     .nav-links ul{
         padding: 30px;
     }
-
 }
 
 .product{
@@ -187,13 +186,23 @@ p{
     padding-bottom: 20px;
 }
 
-/* .product-fishport{
-   margin-top: 5%;
-   display: flex;
-   justify-content: space-between;
-    /* background-color: #7FBCD2; */
 
-.gallery{
+    .gallery1{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        /* padding: 5px 5px; */
+        max-width: 1120px;
+        margin: 0 auto;
+        gap: 15px;
+        border: 20px solid lightblue;
+        border-radius: 25px;
+        background-color: lightblue;
+        box-sizing: border-box;
+
+/* .gallery1{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -204,10 +213,12 @@ p{
     margin: 0 auto;
     gap: 30px;
     border: 20px solid lightblue;
+    border-radius: 30px;
     background-color: lightblue;
+    box-sizing: border-box; */
     
 }
-.gallery img{
+.gallery1 img{
     width: 100%;
     max-width: 350px;
     height: 300px;
@@ -216,14 +227,14 @@ p{
 }
 .gallery2{
     display: flex;
-    /* flex-direction: row; */
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 20px 10px;
+    /* padding: 5px 5px; */
     max-width: 800px;
     margin: 0 auto;
-    gap: 16px;
+    gap: 15px;
 }
 .gallery2 img{
     width: 100%;
