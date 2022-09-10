@@ -132,6 +132,15 @@ nav .fa{
     .product-list{
         flex-direction: column;
     }
+    .gallery1{
+        width: 380px;
+    }
+    .gallery2{
+        width: 380px;
+    }
+    .gallery3{
+        width: 380px;
+    }
 }
 /* *************************************************PRODUCT SECTION************************************************* */
 
@@ -153,21 +162,35 @@ p{
     line-height: 22px;
     padding: 10px;
 }
-.product-list1{
+.fishport-products{
     margin-top: 5%;
-    margin: 0;
-    display: flex;
+    margin-bottom: 5%;
+    margin: 0%;
     justify-content: space-between;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-bottom: 25px;
+    flex-direction: column;
+}
+.fishpond-products{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin: 0%;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    flex-direction: column;
+}
+.smoked-fish-product{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin: 0%;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    flex-direction: column;
 }
 .row1, .row2, .row3{
     text-align: center;
     text-transform: uppercase;
-    padding: 32px;
+    padding: 25px;
     background-color: rgb(228, 202, 168);
-    transition: 5s;
-    
 }
 .header1, .header2, .header3{
     text-decoration: none;
@@ -186,7 +209,7 @@ p{
     max-width: 1120px;
     margin: 0 auto;
     gap: 15px;
-    border: 20px solid lightblue;
+    border: 15px solid lightblue;
     border-radius: 25px;
     background-color: lightblue;
     box-sizing: border-box; 
@@ -204,7 +227,7 @@ p{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    max-width: 780px;
+    max-width: 750px;
     margin: 0 auto;
     gap: 15px;
     border: 15px solid lightblue;
@@ -225,7 +248,7 @@ p{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    max-width: 800px;
+    max-width: 750px;
     margin: 0 auto;
     gap: 15px;
     border: 15px solid lightblue;
