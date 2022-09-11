@@ -135,6 +135,9 @@ nav .fa{
     .gallery1, .gallery2, .gallery3{
         width: 380px;
     }
+    .statement{
+        flex-direction: column;
+    }
    
 }
 /* *************************************************PRODUCT SECTION************************************************* */
@@ -187,6 +190,7 @@ p{
     text-transform: uppercase;
     padding: 25px;
     background-color: rgb(228, 202, 168);
+    margin-top: 5%;
 }
 .header1, .header2, .header3{
     text-decoration: none;
@@ -261,11 +265,23 @@ p{
 }
 /* *************************************************FOOD SAFETY STATEMENT************************************************* */
 .safety{
-    width: 80%;
+    width: 90%;
     margin: auto;
     text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
+}
+.statement{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.safety-col1, .safety-col2{
+    flex-basis: 35%;
+    background: rgb(228, 202, 168);
+    border-radius: 30px;margin-bottom: 5%;
+    padding: 20px 30px;
+    box-sizing: border-box;
 }
 .safety h1{
     font-size: 36px;
@@ -276,20 +292,18 @@ p{
     font-size: 18px;
     font-weight: 350;
     line-height: 22px;
-    padding: 10px;
-    text-align: left;
+    padding: 5px;
+    text-align: center;
 }
 .safety img {
-    width: 400px;
-    height: 350px;
+    width: 500px;
+    height: 450px;
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    max-width: 1000px;
-    margin: 0 auto;
-    gap: 100px;
+    /* margin: 5px; */
     border: 15px solid lightblue;
     border-radius: 25px;
     background-color: lightblue;
