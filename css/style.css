@@ -142,6 +142,10 @@ nav .fa{
         margin-left: 0px;
         margin-right: 5px;
     }
+.cta h1{
+    font-size: 24px;
+}
+    
 }
 /* *************************************************PRODUCT SECTION************************************************* */
 .product{
@@ -336,7 +340,7 @@ p{
     height: 40px;
     margin-left: 5px;
     margin-right: 30px;
-    border-radius: 10px;
+    border-radius: 50%;
 }
 .review-col p{
     padding: 0;
@@ -411,9 +415,34 @@ p{
     color: burlywood;
     margin-bottom: 40px;
     padding: 0;
+}/* ************************************************* FOOTER ************************************************* */
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
 }
-
-
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+p{
+    color: #777;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.icon .fa{
+    color: #f44336;
+    margin: 0 15px;
+    cursor: pointer;
+    padding: 19px 0;
+}
+.fa-heart-o{
+    color: #f44336;
+}
 
 
 
