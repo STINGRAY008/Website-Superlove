@@ -138,9 +138,12 @@ nav .fa{
     .statement{
         flex-direction: column;
     }
+    .review-col img{
+        margin-left: 0px;
+        margin-right: 5px;
+    }
 }
 /* *************************************************PRODUCT SECTION************************************************* */
-
 .product{
     width: 80%;
     margin: auto;
@@ -278,7 +281,8 @@ p{
 .safety-col1, .safety-col2{
     flex-basis: 35%;
     background: rgb(228, 202, 168);
-    border-radius: 30px;margin-bottom: 5%;
+    border-radius: 10px;
+    margin-bottom: 5%;
     padding: 38px 38px;
     box-sizing: border-box;
 }
@@ -302,7 +306,7 @@ p{
     justify-content: center;
     align-items: center;
     border: 15px solid lightblue;
-    border-radius: 25px;
+    border-radius: 10px;
     background-color: lightblue;
     box-sizing: border-box;
 }
@@ -332,7 +336,7 @@ p{
     height: 40px;
     margin-left: 5px;
     margin-right: 30px;
-    border-radius: 30%;
+    border-radius: 10px;
 }
 .review-col p{
     padding: 0;
@@ -358,7 +362,7 @@ p{
     text-transform: uppercase;
     padding: 15px;
     background-color: rgb(228, 202, 168);
-    border-radius: 30px;
+    border-radius: 10px;
     /* margin-top: 5%; */
 }
 .header4{
@@ -379,7 +383,7 @@ p{
     margin: 0 auto;
     gap: 15px;
     border: 15px solid lightblue;
-    border-radius: 25px;
+    border-radius: 10px;
     background-color: lightblue;
     box-sizing: border-box;
 }
@@ -390,9 +394,24 @@ p{
     object-fit: cover;
     border-radius: 10px;
 }
+/* ************************************************* CALL TO ACTION ************************************************* */
 
-
-
+.cta{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    background: url(../images/contact-us.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+.cta h1{
+    color: burlywood;
+    margin-bottom: 40px;
+    padding: 0;
+}
 
 
 
