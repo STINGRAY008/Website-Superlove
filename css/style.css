@@ -8,15 +8,13 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7));
-    background: url(../images/seafood-165220_1280.jpg) no-repeat;
+    background-image: linear-gradient(rgba(67, 87, 240, 0.25),rgba(67, 87, 240, 0.25)), url(../images/seafood-165220_1280.jpg);
     background-position: center;
     background-size: cover;
     
     position: relative;
     color: white;
     text-decoration: none;
-    /*font-size: 20px;*/
     font-size: 28px;
     font-weight: bold;
 }
@@ -25,8 +23,7 @@ nav{
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(228, 202, 168, 0.55);
-    /*background-color: rgba(125, 107, 238, 0.4)*/
+    background-color: rgba(67, 87, 240, 0.75);
 }
 .nav-links{
     flex: 1;
@@ -41,7 +38,6 @@ nav{
 .nav-links ul li a{
     color: white;
     text-decoration: none;
-    /*font-size: 13px;*/
     font-size: 18px;
     font-weight: bold;
 }
@@ -65,17 +61,14 @@ nav{
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
-    /*background-color: rgba(125, 107, 238, 0.4);*/
 }
 .text-box h1{
-    /*font-size: 62px;*/
     font-size: 70px;
     font-weight: bold; 
 }
 .text-box p{
     margin: 10px 0 40px;
     color: white;
-    /*font-size: 14px;*/
     font-size: 18px;
     font-weight: 550;
 }
@@ -85,12 +78,11 @@ nav{
     color: white;
     border: 3px solid white;
     padding: 12px 34px;
-    /*font-size: 13px;*/
     font-size: 18px;
     background: transparent;
     position: relative;
     cursor: pointer;
-    background-color: rgba(228, 202, 168, 0.75);
+    background-color: #0096FF;
 }
 .hero-btn:hover{
     border: 2px solid #f44336;
@@ -140,12 +132,11 @@ nav .fa{
     }
     .review-col img{
         margin-left: 0px;
-        margin-right: 5px;
+        margin-right: 15px;
     }
-.cta h1{
+    .cta h1{
     font-size: 24px;
-}
-    
+    }
 }
 /* *************************************************PRODUCT SECTION************************************************* */
 .product{
@@ -153,41 +144,41 @@ nav .fa{
     margin: auto;
     text-align: center;
     padding-top: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
 }
 h1{
     font-size: 36px;
     font-weight: 600;
 }
 p{
-    color: #777;
+    color: white;
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
     padding: 10px;
 }
 .fishport-products{
-    margin-top: 5%;
+    /* margin-top: 5%;
     margin-bottom: 5%;
-    margin: 0%;
+    margin: 0%; */
     justify-content: space-between;
-    padding-bottom: 25px;
+    /* padding-bottom: 25px; */
     flex-direction: column;
 }
 .fishpond-products{
-    margin-top: 5%;
+    /* margin-top: 5%;
     margin-bottom: 5%;
-    margin: 0%;
+    margin: 0%; */
     justify-content: space-between;
-    padding-bottom: 25px;
+    /* padding-bottom: 25px; */
     flex-direction: column;
 }
 .smoked-fish-products{
-    margin-top: 5%;
+    /* margin-top: 5%;
     margin-bottom: 5%;
-    margin: 0%;
+    margin: 0%; */
     justify-content: space-between;
-    padding-bottom: 25px;
+    /* padding-bottom: 25px; */
     flex-direction: column;
 } 
 
@@ -195,15 +186,15 @@ p{
     text-align: center;
     text-transform: uppercase;
     padding: 25px;
-    background-color: rgb(228, 202, 168);
-    margin-top: 5%;
+    /* background-color: rgb(228, 202, 168); */
+    /* margin-top: 0.1%; */
 }
 .header1, .header2, .header3{
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
     position: relative;
-    color: white;
+    color: #777;
     padding-bottom: 20px;
 }
 .gallery1{
@@ -215,9 +206,9 @@ p{
     max-width: 1120px;
     margin: 0 auto;
     gap: 15px;
-    border: 15px solid lightblue;
-    border-radius: 25px;
-    background-color: lightblue;
+    border: 15px solid #0096FF;
+    border-radius: 10px;
+    background-color: #0096FF;
     box-sizing: border-box; 
 }
 .gallery1 img{
@@ -236,9 +227,9 @@ p{
     max-width: 750px;
     margin: 0 auto;
     gap: 15px;
-    border: 15px solid lightblue;
+    border: 15px solid #0096FF;
     border-radius: 25px;
-    background-color: lightblue;
+    background-color: #0096FF;
     box-sizing: border-box;
 }
 .gallery2 img{
@@ -257,9 +248,9 @@ p{
     max-width: 750px;
     margin: 0 auto;
     gap: 15px;
-    border: 15px solid lightblue;
+    border: 15px solid #0096FF;
     border-radius: 25px;
-    background-color: lightblue;
+    background-color: #0096FF;
     box-sizing: border-box;
 }
 .gallery3 img{
@@ -281,38 +272,44 @@ p{
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
+    align-content: center;
 }
 .safety-col1, .safety-col2{
-    flex-basis: 35%;
-    background: rgb(228, 202, 168);
+    flex-basis: 40%;
+    background: #0096FF;
     border-radius: 10px;
     margin-bottom: 5%;
-    padding: 38px 38px;
+    padding-top: 25px;
     box-sizing: border-box;
+    cursor: pointer;
+}
+.safety-col1:hover{
+    border: 2px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+}
+.safety-col2:hover{
+    border: 2px solid #f44336;
+    background: #f44336;
+    transition: 1s;
 }
 .safety h1{
     font-size: 36px;
     font-weight: 600;
 }
 .safety p{
-    color: #777;
+    color: white;
     font-size: 18px;
     font-weight: 350;
     line-height: 22px;
     padding: 5px;
     text-align: center;
 }
-.safety img {
+.safety img{
     width: 500px;
     height: 450px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
-    border: 15px solid lightblue;
     border-radius: 10px;
-    background-color: lightblue;
-    box-sizing: border-box;
 }
 /* ************************************************* REVIEWS ************************************************* */
 .reviews{
@@ -327,13 +324,13 @@ p{
     justify-content: space-between;
 }
 .review-col{
-    flex-basis: 44%;
+    flex-basis: 42%;
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
-    background:  rgb(228, 202, 168);
-    padding: 25px;
-    cursor: pointer;
+    background: #0096FF;
+    padding: 15px;
+   
     display: flex;
 }
 .review-col img{
@@ -365,7 +362,7 @@ p{
     text-align: center;
     text-transform: uppercase;
     padding: 15px;
-    background-color: rgb(228, 202, 168);
+    background-color: #0096FF;
     border-radius: 10px;
     /* margin-top: 5%; */
 }
@@ -386,9 +383,9 @@ p{
     max-width: 1110px;
     margin: 0 auto;
     gap: 15px;
-    border: 15px solid lightblue;
+    border: 15px solid #0096FF;
     border-radius: 10px;
-    background-color: lightblue;
+    background-color: #0096FF;
     box-sizing: border-box;
 }
 .gallery4 img{
@@ -403,8 +400,8 @@ p{
 .cta{
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
-    background: url(../images/contact-us.jpg) no-repeat;
+    background-image: linear-gradient(rgba(158, 144, 126, 0.55),rgba(158, 144, 126, 0.55)), url(../images/contact-us.jpg) ;
+    /* background: url(../images/contact-us.jpg) no-repeat; */
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -412,11 +409,11 @@ p{
     padding: 100px 0;
 }
 .cta h1{
-    color: burlywood;
+    color: white;
     margin-bottom: 40px;
     padding: 0;
-}/* ************************************************* FOOTER ************************************************* */
-
+}
+/* ************************************************* FOOTER ************************************************* */
 .footer{
     width: 100%;
     text-align: center;
@@ -443,9 +440,13 @@ p{
 .fa-heart-o{
     color: #f44336;
 }
+/* ************************************************* ABOUT US ************************************************* */
 
-
-
+.sub-header{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7)),rgba(4,9,30,0.7);
+}
 
 
 
