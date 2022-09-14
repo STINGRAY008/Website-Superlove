@@ -151,34 +151,22 @@ h1{
     font-weight: 600;
 }
 p{
-    color: white;
+    color: #777;
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
     padding: 10px;
 }
 .fishport-products{
-    /* margin-top: 5%;
-    margin-bottom: 5%;
-    margin: 0%; */
     justify-content: space-between;
-    /* padding-bottom: 25px; */
     flex-direction: column;
 }
 .fishpond-products{
-    /* margin-top: 5%;
-    margin-bottom: 5%;
-    margin: 0%; */
     justify-content: space-between;
-    /* padding-bottom: 25px; */
     flex-direction: column;
 }
 .smoked-fish-products{
-    /* margin-top: 5%;
-    margin-bottom: 5%;
-    margin: 0%; */
     justify-content: space-between;
-    /* padding-bottom: 25px; */
     flex-direction: column;
 } 
 
@@ -186,8 +174,6 @@ p{
     text-align: center;
     text-transform: uppercase;
     padding: 25px;
-    /* background-color: rgb(228, 202, 168); */
-    /* margin-top: 0.1%; */
 }
 .header1, .header2, .header3{
     text-decoration: none;
@@ -269,7 +255,7 @@ p{
     padding-bottom: 20px;
 }
 .statement{
-    margin-top: 5%;
+    margin-top: 2%;
     display: flex;
     justify-content: space-between;
     align-content: center;
@@ -298,7 +284,7 @@ p{
     font-weight: 600;
 }
 .safety p{
-    color: white;
+    color: black;
     font-size: 18px;
     font-weight: 350;
     line-height: 22px;
@@ -341,6 +327,7 @@ p{
 }
 .review-col p{
     padding: 0;
+    color: black;
 }
 .review-col h3{
     margin-top: 15px;
