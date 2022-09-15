@@ -469,8 +469,26 @@ p{
     font-size: 28px;
     font-weight: bold;
 }
-
-
+/* ************************************************* REVIEWS ************************************************* */
+.comment-box{
+    border: 3px solid #ccc;
+    margin: 50px 0;
+    padding: 10px 20px;
+}
+.comment-box h3{
+    text-align: left;
+}
+.comment-form input, .comment-form textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: none;
+    background: #f0f0f0;
+}
+.comment-form button{
+    margin: 10px 0;
+}
 
 
  

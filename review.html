@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website-Superlove</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<!--******************************************MAIN SECTION******************************************--> 
+
+<!--******************************************NAVIGATION SECTION******************************************-->
+    <section class="sub-header">
+        <nav>
+            <!--<a href="index.html"><img src="LOGO"></a>-->
+            </label>
+            <label class="logo">SUPERLOVE Fish Trading</label>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">PRODUCTS</a></li>
+                    <li><a href="">REVIEWS</a></li>
+                    <li><a href="">CONTACTS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Testimonials</h1>
+
+    </section>
+<!-- ------------------------------------------ REVIEWS  ----------------------------------------- -->
+<section class="reviews">
+    <h1>What Our Customer Says</h1>
+    <p>Through our customer reviews, our businesses<br/> 
+        can see which products or services they should<br/> 
+        be boasting, which we need to work, and even<br/> 
+        discover employees who rock at customer service. </p>
+    <div class="row">
+        <div class="review-col">
+            <img src="images/Naneng.jpg">
+            <div>
+                <p>Best retail seafood in Talipapa. Always fresh.<br/>
+                   Their shrimp is the best.</p>
+                <h3>Naneng Boquing</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        <div class="review-col">
+            <img src="images/Loy.jpg">
+            <div>
+                <p>Fresh food and great staff with whom <br/>
+                   I shared a few laughs with...</p>
+                <h3>Samuel Castro</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+    </div>
+    <div class="review-col2">
+        <div class="row4">
+            <header class="header4">
+                <h3>OTHER REVIEWS - FINGERLINGS</h3>
+            </header>
+            <!-------------------------------------------GALLERY 4-------------------------------------------->    
+            <div class="gallery4">
+                <img src="images/Feedback1.jpg">
+                <img src="images/Feedback2.jpg">
+                <img src="images/Feedback3.jpg">
+                <img src="images/Feedback4.jpg">
+                <img src="images/Feedback5.png">
+                <img src="images/Feedback6.png">
+                <img src="images/Feedback7.png">
+                <img src="images/Feedback8.png">
+                <img src="images/Feedback9.png">
+            </div>
+        </div>
+    </div>
+    <div class="comment-box">
+        <h3>Leave a comment</h3>
+        <form class="comment-form">
+            <input type="text" placeholder="Enter your name">
+            <input type="text" placeholder="Enter your email">
+            <textarea rows="10" placeholder="Your comment" ></textarea>
+            <button type="submit" class="hero-btn">POST COMMENT</button>
+        </form>
+    </div>
+
+<!-- ------------------------------------------ FOOTER  ----------------------------------------- -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>
+        Our company trademark “Golden Fish Hook” <br/>
+        was registered in 2020 and is a part of all<br/>
+        of our branding. We want our products to be<br/>
+        considered the “gold standard” of seafood products <br/>
+        and fresh water products. Our wholesale, retail <br/>
+        and fingerlings customers all expect top quality <br/>
+        and service throughout our entire operation.<br/>
+        <br/>
+        The 3 pronged hook that is built into our <br/>
+        logo symbolizes the 3 major areas in our company – <br/>
+        Wholesale, Retail & Our Fingerlings.
+    </p>
+    <div class="icon">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-whatsapp"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with  <i class="fa fa-heart-o"></i> by Jing Rodolfo</p>
+</section>
+
+<!--******************************************JavaScript for Toggle Menu******************************************-->     
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right= "0"
+        }
+        function hideMenu(){
+            navLinks.style.right= "-200px"
+        }
+    </script>
+</body>
+
+</html>
