@@ -24,6 +24,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     background-color: rgba(67, 87, 240, 0.75);
+
 }
 .nav-links{
     flex: 1;
