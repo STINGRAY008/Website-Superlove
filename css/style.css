@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    
 ;
 }
 .header{
@@ -125,9 +124,10 @@ nav .fa{
     .product-list{
         flex-direction: column;
     }
-    .gallery1, .gallery2, .gallery3, .gallery4{
+    .gallery1, .gallery2, .gallery4{
         width: 380px;
     }
+   
     .statement{
         flex-direction: column;
     }
@@ -142,14 +142,14 @@ nav .fa{
 }
 /* *************************************************PRODUCT SECTION************************************************* */
 .product{
-    width: 80%;
+    width: 90%;
     margin: auto;
     text-align: center;
     padding-top: 40px;
     padding-bottom: 5px;
 }
 h1{
-    font-size: 36px;
+    font-size: 34px;
     font-weight: 600;
 }
 p{
@@ -199,13 +199,6 @@ p{
     background-color: #0096FF;
     box-sizing: border-box; 
 }
-.gallery1 img{
-    width: 100%;
-    max-width: 350px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 10px;
-}
 .gallery2{
     display: flex;
     flex-direction: row;
@@ -220,6 +213,27 @@ p{
     background-color: #0096FF;
     box-sizing: border-box;
 }
+.gallery3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+    gap: 15px;
+    border: 15px solid #0096FF;
+    border-radius: 10px;
+    background-color: #0096FF;
+    box-sizing: border-box;
+}
+.gallery1 img{
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
 .gallery2 img{
     width: 100%;
     max-width: 350px;
@@ -227,30 +241,16 @@ p{
     object-fit: cover;
     border-radius: 10px;
 }
-.gallery3{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    max-width: 750px;
-    margin: 0 auto;
-    gap: 15px;
-    border: 15px solid #0096FF;
-    border-radius: 25px;
-    background-color: #0096FF;
-    box-sizing: border-box;
-}
 .gallery3 img{
     width: 100%;
-    max-width: 350px;
-    height: 450px;
+    max-width: 175px;
+    height: 225px;
     object-fit: cover;
     border-radius: 10px;
 }
 /* *************************************************FOOD SAFETY STATEMENT************************************************* */
 .safety{
-    width: 90%;
+    width: 95%;
     margin: auto;
     text-align: center;
     padding-top: 20px;
@@ -263,45 +263,26 @@ p{
     align-content: center;
 }
 .safety-col1, .safety-col2{
-    flex-basis: 40%;
-    background: #0096FF;
-    border-radius: 10px;
+    flex-basis: 48%;
     margin-bottom: 5%;
     padding-top: 25px;
     box-sizing: border-box;
     cursor: pointer;
 }
-.safety-col1:hover{
-    border: 2px solid #f44336;
-    background: #f44336;
-    transition: 1s;
-}
-.safety-col2:hover{
-    border: 2px solid #f44336;
-    background: #f44336;
-    transition: 1s;
-}
-.safety h1{
-    font-size: 36px;
-    font-weight: 600;
-}
-.safety p{
-    color: black;
-    font-size: 18px;
-    font-weight: 350;
-    line-height: 22px;
-    padding: 5px;
-    text-align: center;
-}
 .safety img{
-    width: 500px;
-    height: 450px;
+    width: 350px;
+    height: 300px;
     align-items: center;
     border-radius: 10px;
 }
+.safety img:hover{
+    box-shadow: 0 0 50px 0px #f44336;
+    transition: 1s;
+}
+    
 /* ************************************************* REVIEWS ************************************************* */
 .reviews{
-    width: 80%;
+    width: 90%;
     margin: auto;
     padding-top: 20px;
     text-align: center; 

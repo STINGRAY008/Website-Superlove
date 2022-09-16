@@ -5,3 +5,17 @@ Our fish are raised with a high protein diet to help with healthy, rapid growth,
 To exceed  in every way possible and deliver the highest standards
 of product, conduct of business, and service to you.
 
+Through our customer reviews, our businesses can see which products or services they should be boasting, which we need to work, and even discover employees who rock at customer service. 
+
+Here is what our customers are saying about Market Boy!
+
+.contact-col{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+.contact-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+ 
