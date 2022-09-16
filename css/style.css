@@ -10,7 +10,6 @@
     background-image: linear-gradient(rgba(67, 87, 240, 0.25),rgba(67, 87, 240, 0.25)), url(../images/seafood-165220_1280.jpg);
     background-position: center;
     background-size: cover;
-    
     position: relative;
     color: white;
     text-decoration: none;
@@ -23,7 +22,6 @@ nav{
     justify-content: space-between;
     align-items: center;
     background-color: rgba(67, 87, 240, 0.75);
-
 }
 .nav-links{
     flex: 1;
@@ -144,8 +142,7 @@ nav .fa{
     }
     .cta h1{
     font-size: 24px;
-    }
-   
+    } 
 }
 /* *************************************************PRODUCT SECTION************************************************* */
 .product{
@@ -443,7 +440,6 @@ p{
     background-size: cover;
     text-align: center;
 }
-
 .sub-header h1{
     margin-top: 200px;
     color: #fff;
@@ -474,7 +470,7 @@ p{
     font-size: 28px;
     font-weight: bold;
 }
-/* ************************************************* REVIEWS PAGE ************************************************* */
+/* ************************************************* REVIEW PAGE ************************************************* */
 .comment-box{
     border: 3px solid #ccc;
     margin: 50px 0;
@@ -528,23 +524,10 @@ p{
     color: #555;
     font-weight: 400;
 }
-/* .contact-col input, .contact-col textarea{
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 17px;
-    outline: none;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-} */
-
-
 .contact-col2 div{
-    /* display: flex; */
-    /* display: inline-block; */
     align-items: center;
     margin-bottom: 40px;
 }
-
 .contact-col2 input, .contact-col2 textarea{
     width: 100%;
     padding: 15px;
